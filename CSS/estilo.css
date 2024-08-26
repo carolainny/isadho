@@ -1,0 +1,85 @@
+
+html, body {
+    background-color: #020202 !important;
+    opacity:0.8;
+}
+
+body{
+  position: relative;
+  margin: auto;
+  border: 3px solid black;
+}
+
+.buttonStyle{
+  width: 200%;
+  color: black;
+  }
+
+.container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.footer {
+  position:absolute;
+  bottom:0;
+  margin-top: 10px;
+}
+
+#copyright{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  color: White;
+}
+
+video {
+  margin: 0 auto;s
+}
+
+.tituloPrincipal {
+  color: white;
+  text-align: center;
+}
+
+.textoComunidade{
+  color: white;
+  text-align: center;
+}
+
+.alertaComunidade {
+  color: red;
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.divCentro {
+  text-align: center;
+}
+
+.btnDireita {
+  position: relative;
+  width: 20%;
+  height: 50px;
+  margin-top: 1%;
+  margin-left: 60%;
+}
+
+#loading {
+  text-align: center;
+}
