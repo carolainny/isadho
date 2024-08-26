@@ -1,0 +1,77 @@
+<html>
+      <head>
+        <meta charset="utf-8">
+        <title>Execução Máxima - Comunidade </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="shortcut icon" type="image/png" href="Imagens/1.png">
+
+        <!-- Importação de arquivo CSS -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <!-- Importação da Biblioteca bootstrap -->
+        <link  rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Comunidade</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <form class="form-inline my-2 my-lg-0">
+                <div class="nav-item collapse navbar-collapse" id="navbarNavDarkDropdown">
+                  <ul class="navbar-nav">
+                    <a class="nav-link" href="paginaPrincipal.html" id="navbarDarkDropdownMenuLink"  data-bs-toggle="dropdown" role="button" aria-expanded="false" onclick="mudaPaginaInicio()">
+                      Inicio
+                    </a>
+                    <a class="nav-link" href="comunidade" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="mudaPaginaComunidade()">
+                      Comunidade
+                    </a>
+                    <a class="nav-link" href="buscar.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="mudaPaginaBuscar()">
+                      Buscar
+                    </a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Amanda Carrafa do Nascimento
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="alterarsenha.html">Alterar a Senha</a></li>
+                        <li><a class="dropdown-item" href="meuPerfil.html">Meu Perfil</a></li>
+                        <li><a class="dropdown-item" href="suporte.html">Suporte</a></li>
+                        <li><a class="dropdown-item" href="index.html">Sair</a></li>
+                      </ul>
+                  </li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+          </nav>
+
+          <div>
+            <h1 class="tituloPrincipal">AMANDA</h1>
+
+            <p class="textoComunidade">SEJAM MUITO BEM-VINDOS!!</p>
+            <p class="textoComunidade">ESTA E A NOSSA COMUNIDADE, PARA QUE NOS POSSAMOS COMPARTILHAR NOSSO DESENVOLVIMENTO DENTRO DO SITE/APLICATIVO.TODA ESTA AREA SERÁ VOLTADO PARA AREA ESCOLAR.
+              TENHA UM BOM APRENDIZADO!
+              ATE MAIS.
+            </p>
+            <p class="alertaComunidade">Ps: Socorro, salvem a programadora desse projeto. </p>
+            <p class="textoComunidade">ATENCIOSAMENTE, AMANDA CARRAFA DO NASCIMENTO</p>
+          </div>
+
+
+          <div class="divCentro">
+            <textarea class="textarea"> Escreva aqui seu comentário para toda a comunidade</textarea>
+            <form>
+              <br>
+              <div class="form-group">
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+              </div>
+            </form>
+            </br>
+            <button class="btn btn-primary btnDireita" onclick="carregando()"> Enviar </button>
+          </div>
+
+          <script type="text/javascript" src="JS/javascript.js"></script>
+          <script type="text/javascript" src="JS/bootstrap.min.js"></script>
+      </body>
+</html>

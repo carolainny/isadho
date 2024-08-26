@@ -1,0 +1,100 @@
+<html>
+      <head>
+        <meta charset="utf-8">
+        <title>Execução Máxima - Pagina Principal </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="shortcut icon" type="image/png" href="Imagens/1.png">
+
+        <!-- Importação de arquivo CSS -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <!-- Importação da Biblioteca bootstrap -->
+        <link  rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menu Principal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <form class="form-inline my-2 my-lg-0">
+                <div class="nav-item collapse navbar-collapse" id="navbarNavDarkDropdown">
+                  <ul class="navbar-nav">
+                    <a class="nav-link" href="paginaPrincipal.html" id="navbarDarkDropdownMenuLink"  data-bs-toggle="dropdown" role="button" aria-expanded="false" onclick="mudaPaginaInicio()">
+                      Inicio
+                    </a>
+                    <a class="nav-link" href="comunidade" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="mudaPaginaComunidade()">
+                      Comunidade
+                    </a>
+                    <a class="nav-link" href="buscar.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" onclick="mudaPaginaBuscar()">
+                      Buscar
+                    </a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Amanda Carrafa do Nascimento
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a class="dropdown-item" href="alterarsenha.html">Alterar a Senha</a></li>
+                        <li><a class="dropdown-item" href="meuPerfil.html">Meu Perfil</a></li>
+                        <li><a class="dropdown-item" href="suporte.html">Suporte</a></li>
+                        <li><a class="dropdown-item" href="index.html">Sair</a></li>
+                      </ul>
+                  </li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+          </nav>
+          <div>
+            <blockquote class="blockquote text-center">
+              <p class="mb-0">Continue Assistindo</p>
+            </blockquote>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <video width="1280" height="480" autoplay muted>
+                    <source src="C:\Users\giova\Downloads\Trabalho Carol Execução Maxima\Mídia\Como ir do mil ao milhão.mp4" type="video/mp4">
+                  </video>
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Financeiro</h5>
+                     <h5>Como ir do Mil ao Milhão - Primo Rico</h5>
+                     <button type="button" class="btn btn-link" onclick="video1()"> Continue Assistindo </button>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <video width="1280" height="480" autoplay muted>
+                    <source src="C:\Users\giova\Downloads\Trabalho Carol Execução Maxima\Mídia\Como mudar hábitos e deixar de adiar obrigações.mp4" type="video/mp4">
+                  </video>
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Desenvolvimento Pessoal</h5>
+                     <h5>Como mudar hábitos e deixar de adiar obrigações - Leandro Karnal </h5>
+                     <button type="button" class="btn btn-link"  onclick="video2()"> Continue Assistindo </button>
+                                      </div>
+                </div>
+                <div class="carousel-item">
+                  <video width="1280" height="480" autoplay muted>
+                    <source src="C:\Users\giova\Downloads\Trabalho Carol Execução Maxima\Mídia\Quem se ofende fácil é burro.mp4" type="video/mp4">
+                  </video>
+                  <div class="carousel-caption d-none d-md-block">
+                     <h5>Auto-Ajuda</h5>
+                     <h5>Quem se ofende fácil é burro - Seiti Arata</h5>
+                     <button type="button" class="btn btn-link"  onclick="video3()"> Continue Assistindo </button>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+
+          <script type="text/javascript" src="JS/javascript.js"></script>
+          <script type="text/javascript" src="JS/bootstrap.min.js"></script>
+      </body>
+</html>
